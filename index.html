@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>slidetest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!--jqueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--bxsliderのscript読み込み-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        //bxsliderの初期化//
+        $(document).ready(function () {
+            $('.slideshow').bxSlider({
+                auto: true,
+                mode: 'fade',
+                speed: 1000,
+                sledewidth: 400,
+                pager: false, //ページャの非表示//
+                controls: false,//前後のコントロールボタン非表示//
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">cookレシピ</div>
+            <ul>
+                <li>会社概要</li>
+                <li>サービス</li>
+                <li>採用情報</li>
+                <li>お問い合わせ</li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainvisual">
+            <div class="slideshow">
+                <div><img src="./img/food-g09dc34e88_640.jpg"></div>
+                <div><img src="./img/water-spinach-gc4a81785d_640.jpg"></div>
+                <div><img src="./img/salmon-g6d2e8328b_640.jpg"></div>
+            </div>
+            <div class="catchcopy">
+                <p>cookレシピ</p>
+                <div class="catchcopy2">
+                    <p>～レシピ検索NO1～</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <category>
+        <div class="categorybox">
+            <div class="categorylogo">
+                <div class="categorylogo1">
+                    <p>category</p>
+                </div>
+                <div class="categorylogo2">
+                    <p>カテゴリー</p>
+                </div>
+            </div>
+            <div class="categorypicture">
+                <div class="boxpicture">
+                    <img src="./img/meat.jpg">
+                    <p class="name">肉料理</p>
+                    <p>牛肉　豚肉　鶏肉　ラム肉、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/fish.jpg">
+                    <p class="name">魚介</p>
+                    <p>まぐろ　鮭　かつお　白身魚　いか　エビ　あさり、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/vegitable.jpg">
+                    <p class="name">野菜</p>
+                    <p>きゃべつ　白菜　じゃがいも　人参　ほうれん草　玉ねぎ　れんこん、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/photo-1627286400579-027de47e9e73.jpg">
+                    <p class="name">パスタ　グラタン　麺</p>
+                    <p>パスタ　グラタン　ラザニア　うどん　ラーメン　そば、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/photo-1593357849627-cbbc9fda6b05.jpg">
+                    <p class="name">ご飯もの</p>
+                    <p>かつ丼　天丼　親子丼　オムライス　チャーハン、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/photo-1629579436553-6b34e5ddd9de.jpg">
+                    <p class="name">粉もの　点心</p>
+                    <p>お好み焼き　焼きそば　餃子　点心、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/quinoa-soup-gca9743608_640.jpg">
+                    <p class="name">汁物</p>
+                    <p>味噌汁　シチュー　コンソメスープ、、、　</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/photo-1600850056064-a8b380df8395.jpg">
+                    <p class="name">サラダ</p>
+                    <p>ポテトサラダ　マカロニサラダ　和風　洋風、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/bread-g6f4688dbe_640.jpg">
+                    <p class="name">パン</p>
+                    <p>食パン　テーブルパン　ハードパン　クロワッサン　サンドウィッチ、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/strawberry-dessert-gd3cc7952c_640.jpg">
+                    <p class="name">スイーツ</p>
+                    <p>ケーキ　プリン　シュークリーム、、、　</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/photo-1574484184081-afea8a62f9c0.jpg">
+                    <p class="name">おもてなし</p>
+                    <p>お寿司　オードブル、、、</p>
+                </div>
+                <div class="boxpicture">
+                    <img src="./img/lentil-soup-g5b317f179_640.jpg">
+                    <p class="name">世界の料理</p>
+                    <p>ブラジル　タイ　ベトナム、、、</p>
+                </div>
+
+            </div>
+        </div>
+    </category>
+    <div class="osusume">
+        <div class="categorylogo3">
+            <p>本日のおすすめ</p>
+        </div>
+        <div class="osusume2">
+            <div class="osusumepicture">
+                <img src="./img/kua-kling-gcd04a23e4_640.jpg">
+            </div>
+            <div class="setumei">
+                <p class="recipimei">　夏野菜のドライカレー </p>
+                <p> 材料</p>
+                <p>ナス1本、ピーマン2個、オクラ4本、ミニトマト3個、玉ねぎ1/2個、</p>
+                <p>人参1/2本、ひき肉250グラム、蒸し豆70グラム、水100cc,</p>
+                <p>カレールウ1袋</p>
+                <br>
+                <p>作り方</p>
+                <p>①なす、ピーマン、オクラ、ミニトマト、玉ねぎ、人参、蒸し豆を1㎝角に</p>
+                <p>切る</p>
+                <p>②フライパンに油をひき、ひき肉を炒める。</p>
+                <p>③火が通ったら、玉ねぎ、人参を炒める。</p>
+            </div>
+        </div>
+    </div>
+    <div class="ninkirecipi">
+        <div class="categorylogo">
+            <div class="categorylogo1">
+                <p>人気レシピ</p>
+            </div>
+            <div class="categorylogo2">
+                <p>作ってみよう</p>
+                <!--slickの読み込み-->
+                <link rel="stylesheet" href="slick.css">
+                <div class="slideshow2">
+                    <div><img src="./img/food-g2bf5df39c_640.jpg"></div>
+                    <div><img src="./img/fried-chicken-ga1f81029f_640.jpg"></div>
+                    <div><img src="./img/eclair-ge980d74d5_640.jpg"></div>
+                    <div><img src="./img/sushi-g721b50e0b_640.jpg"></div>
+                    <div><img src="./img/eggplant-g4958dfeb0_640.jpg"></div>
+                </div>
+                <script src="slick.min.js"></script>
+                <script>
+                    $(function () {
+                        $(".slideshow2").slick({
+                            autoplay: true, //自動スクロール
+                            autoplaySpeed: 0, //自動再生時のスライド切り替えの時間
+                            speed: 5000, //スライドが流れるスピード
+                            arrows: false, //左右の矢印を非表示
+                            swipe: false,//スワイプ禁止
+                            slidesToShow: 4,//表示するスライドの数
+                            cssEase: "linear",//画像切り替えのアニメーション"linearは等速"
+                            pauseOnFocus: false,//フォーカスしても止めない
+                            pauseOnHover: false,//マウスホバーしても止めない
+                        });
+                    });
+                </script>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="toukou">
+        <div class="bg_test">
+            <!--背景画像を設定します。-->
+            <div class="toukou1">
+                <div class="categorylogo3">
+                    <p>レシピ投稿</p>
+                </div>
+                <div class="table">
+                    <form action="XXXX" method="XXXX">
+                        <div class="table2">
+                            <p>ニックネーム</P>
+                            <input type="text" name="yourname" placeholder="cookレシピ太郎" 　>
+                        </div>
+                        <div class="table2">
+                            <p>レシピ名</p>
+                            <input type="text" name="recipi" placeholder="レシピ名">
+                        </div>
+                        <div class="table2">
+                            <p>写真</p>
+                            <input type="file" name="写真" placeholder="写真">
+                        </div>
+                        <div class="table2">
+                            <p>作り方</p>
+                            <textarea name="作り方" rows="5" placeholder="作り方を記入してください。"></textarea>
+                        </div>
+                            <input type="submit"  class="table3" values="送信">
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        ©　2022 manabiya sakura
+    </footer>
+
+
+
+</body>
+
+</html>

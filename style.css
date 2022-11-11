@@ -1,0 +1,254 @@
+/*css 余白・境界　リセット　*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*bxsliderの初期cssを打ち消す*/
+.bx-wrapper {
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    background: none !important;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.logo {
+    margin-left: 145px;
+}
+
+
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 147px;
+
+}
+
+header li {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+/*32px   分からない途中*/
+
+/*スライドショーする画像の幅を100%に設定*/
+.slideshow img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    /*縦、横の比率を保ったまま、表示してくれる*/
+}
+
+.mainvisual {
+    position: relative;
+}
+
+.catchcopy {
+    font-size: 56px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.catchcopy2 {
+    font-size: 32px;
+    margin-top: 32px;
+}
+
+.categorybox {
+
+    margin: 128px auto;
+    width: 1189px;
+    height: 1103px;
+}
+
+.categorylogo {
+    text-align: center;
+    margin-top: auto;
+}
+
+.categorylogo1 {
+    font-family: serif;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+}
+
+.categorylogo2 {
+    font-size: 16px;
+    color: black;
+    margin: 8px auto 64px auto;
+}
+
+.categorypicture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.boxpicture {
+    width: 250px;
+    height: 317px;
+    text-align: left;
+   
+
+}
+
+.boxpicture img {
+    width: 250px;
+    height: 188px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.name {
+    text-align: center;
+}
+
+.osusume {
+    width: 100%;
+    height: 749px;
+    background-color: #d9d9d9;
+    padding-top: 128px;
+}
+
+.categorylogo3 {
+    font-family: serif;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.osusume2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px auto;
+    /*領域を中央寄せ*/
+    /*どこのmargintop?*/
+    width: 1170px;
+    height: 376px;
+}
+
+.osusumepicture img {
+    width: 500px;
+    height: 376px;
+}
+
+.recipimei {
+    font-size: 48px;
+    color: black;
+}
+
+.ninkirecipi {
+    width: 100%;
+    height: 370px;
+    margin-top: 128px;
+}
+
+.slideshow2 {
+    display: flex;
+    width: 100%;
+    height: 205px;
+    margin-top: 68px;
+}
+
+.slideshow2 img {
+    width: 100%;
+    height: 205px;
+    object-fit: cover;
+    /*縦、横の比率を保ったまま、表示してくれる*/
+}
+
+/*slickで動かす*/
+
+.toukou {
+    width: 100%;
+    height: auto;
+    margin-top: 128px;
+}
+
+.bg_test {
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/dessert-g53ee8abb1_640.jpg);
+    background-size: cover;
+    /*背景写真を指定いっぱいに表示*/
+    filter: brightness(75%);
+
+}
+
+.toukou1 {
+
+    width: 703px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 128px;
+
+}
+
+
+.table {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 704px;
+    padding-bottom: 128px;
+}
+
+.table2 {
+    display: flex;
+    margin: 95px 0 64px 0;
+
+}
+
+.table2 p {
+    width: 208px;
+    color: white;
+}
+
+.table2 input,
+.table2 textarea {
+    width: 496px;
+}
+
+
+
+.table3 {
+    width: 260px;
+    height: 50px;
+    background-color: #333333;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+   
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-family: serif;
+    text-align: center;
+  line-height:40px; /*行の高さ*/
+}
